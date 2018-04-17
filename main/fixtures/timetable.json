@@ -39,7 +39,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 3,
 		"fields": {
 			"course_id": 2,
 			"room": "C13",
@@ -50,7 +50,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 4,
 		"fields": {
 			"course_id": 2,
 			"room": "C13",
@@ -69,7 +69,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 5,
 		"fields": {
 			"course_id": 3,
 			"room": "LR1/C22",
@@ -80,7 +80,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 6,
 		"fields": {
 			"course_id": 3,
 			"room": "LR1/C22",
@@ -99,7 +99,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 7,
 		"fields": {
 			"course_id": 4,
 			"room": "C03",
@@ -110,7 +110,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 8,
 		"fields": {
 			"course_id": 4,
 			"room": "C03",
@@ -129,7 +129,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 9,
 		"fields": {
 			"course_id": 5,
 			"room": "C24",
@@ -140,7 +140,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 10,
 		"fields": {
 			"course_id": 5,
 			"room": "C24",
@@ -159,7 +159,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 11,
 		"fields": {
 			"course_id": 6,
 			"room": "C11",
@@ -170,7 +170,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 12,
 		"fields": {
 			"course_id": 6,
 			"room": "C11",
@@ -189,7 +189,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 13,
 		"fields": {
 			"course_id": 7,
 			"room": "C11",
@@ -200,7 +200,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 14,
 		"fields": {
 			"course_id": 7,
 			"room": "C11",
@@ -219,7 +219,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 15,
 		"fields": {
 			"course_id": 8,
 			"room": "C24",
@@ -230,7 +230,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 16,
 		"fields": {
 			"course_id": 8,
 			"room": "C24",
@@ -249,7 +249,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 17,
 		"fields": {
 			"course_id": 9,
 			"room": "B105",
@@ -260,7 +260,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 18,
 		"fields": {
 			"course_id": 9,
 			"room": "B105",
@@ -279,7 +279,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 19,
 		"fields": {
 			"course_id": 10,
 			"room": "A006",
@@ -290,7 +290,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 20,
 		"fields": {
 			"course_id": 10,
 			"room": "A006",
@@ -309,7 +309,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 21,
 		"fields": {
 			"course_id": 11,
 			"room": "C13",
@@ -320,7 +320,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 22,
 		"fields": {
 			"course_id": 11,
 			"room": "C13",
@@ -339,7 +339,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 23,
 		"fields": {
 			"course_id": 12,
 			"room": "C22",
@@ -350,7 +350,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 24,
 		"fields": {
 			"course_id": 12,
 			"room": "C22",
@@ -369,7 +369,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 25,
 		"fields": {
 			"course_id": 13,
 			"room": "C12",
@@ -380,7 +380,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 26,
 		"fields": {
 			"course_id": 13,
 			"room": "C12",
@@ -399,7 +399,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 27,
 		"fields": {
 			"course_id": 14,
 			"room": "C03",
@@ -410,7 +410,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 28,
 		"fields": {
 			"course_id": 14,
 			"room": "C03",
@@ -429,7 +429,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 29,
 		"fields": {
 			"course_id": 15,
 			"room": "C21",
@@ -440,7 +440,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 30,
 		"fields": {
 			"course_id": 15,
 			"room": "C21",
@@ -459,7 +459,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 31,
 		"fields": {
 			"course_id": 16,
 			"room": "C03",
@@ -470,7 +470,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 32,
 		"fields": {
 			"course_id": 16,
 			"room": "C03",
@@ -489,7 +489,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 33,
 		"fields": {
 			"course_id": 17,
 			"room": "C12",
@@ -500,7 +500,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 34,
 		"fields": {
 			"course_id": 17,
 			"room": "C12",
@@ -519,7 +519,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 35,
 		"fields": {
 			"course_id": 18,
 			"room": "C03",
@@ -530,7 +530,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 36,
 		"fields": {
 			"course_id": 18,
 			"room": "C03",
@@ -549,7 +549,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 37,
 		"fields": {
 			"course_id": 19,
 			"room": "C23",
@@ -560,7 +560,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 38,
 		"fields": {
 			"course_id": 19,
 			"room": "C23",
@@ -579,7 +579,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 39,
 		"fields": {
 			"course_id": 20,
 			"room": "C12",
@@ -590,7 +590,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 40,
 		"fields": {
 			"course_id": 20,
 			"room": "C12",
@@ -609,7 +609,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 41,
 		"fields": {
 			"course_id": 21,
 			"room": "C22",
@@ -620,7 +620,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 42,
 		"fields": {
 			"course_id": 21,
 			"room": "C22",
@@ -639,7 +639,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 43,
 		"fields": {
 			"course_id": 22,
 			"room": "C23",
@@ -650,7 +650,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 44,
 		"fields": {
 			"course_id": 22,
 			"room": "C23",
@@ -669,7 +669,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 45,
 		"fields": {
 			"course_id": 23,
 			"room": "C03",
@@ -680,7 +680,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 46,
 		"fields": {
 			"course_id": 23,
 			"room": "C03",
@@ -699,7 +699,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 47,
 		"fields": {
 			"course_id": 24,
 			"room": "C13",
@@ -710,7 +710,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 48,
 		"fields": {
 			"course_id": 24,
 			"room": "C13",
@@ -729,7 +729,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 49,
 		"fields": {
 			"course_id": 25,
 			"room": "C03",
@@ -740,7 +740,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 50,
 		"fields": {
 			"course_id": 25,
 			"room": "C03",
@@ -759,7 +759,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 51,
 		"fields": {
 			"course_id": 26,
 			"room": "B105",
@@ -770,7 +770,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 52,
 		"fields": {
 			"course_id": 26,
 			"room": "B105",
@@ -789,7 +789,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 53,
 		"fields": {
 			"course_id": 27,
 			"room": "C13",
@@ -800,7 +800,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 54,
 		"fields": {
 			"course_id": 27,
 			"room": "C13",
@@ -819,7 +819,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 55,
 		"fields": {
 			"course_id": 28,
 			"room": "C03",
@@ -830,7 +830,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 56,
 		"fields": {
 			"course_id": 28,
 			"room": "C03",
@@ -849,7 +849,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 57,
 		"fields": {
 			"course_id": 29,
 			"room": "C03",
@@ -860,7 +860,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 58,
 		"fields": {
 			"course_id": 29,
 			"room": "C03",
@@ -879,7 +879,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 59,
 		"fields": {
 			"course_id": 30,
 			"room": "C24/L21",
@@ -890,7 +890,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 60,
 		"fields": {
 			"course_id": 30,
 			"room": "C24/L21",
@@ -909,7 +909,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 61,
 		"fields": {
 			"course_id": 31,
 			"room": "L21",
@@ -920,7 +920,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 62,
 		"fields": {
 			"course_id": 31,
 			"room": "L21",
@@ -939,7 +939,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 63,
 		"fields": {
 			"course_id": 32,
 			"room": "C12",
@@ -950,7 +950,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 64,
 		"fields": {
 			"course_id": 32,
 			"room": "C12",
@@ -969,7 +969,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 65,
 		"fields": {
 			"course_id": 33,
 			"room": "C22",
@@ -980,7 +980,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 66,
 		"fields": {
 			"course_id": 33,
 			"room": "C22",
@@ -999,7 +999,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 67,
 		"fields": {
 			"course_id": 34,
 			"room": "C22",
@@ -1010,7 +1010,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 68,
 		"fields": {
 			"course_id": 34,
 			"room": "C22",
@@ -1029,7 +1029,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 69,
 		"fields": {
 			"course_id": 35,
 			"room": "C23",
@@ -1040,7 +1040,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 70,
 		"fields": {
 			"course_id": 35,
 			"room": "C23",
@@ -1059,7 +1059,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 71,
 		"fields": {
 			"course_id": 36,
 			"room": "C24",
@@ -1070,7 +1070,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 72,
 		"fields": {
 			"course_id": 36,
 			"room": "C24",
@@ -1089,7 +1089,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 73,
 		"fields": {
 			"course_id": 37,
 			"room": "C22",
@@ -1100,7 +1100,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 74,
 		"fields": {
 			"course_id": 37,
 			"room": "C22",
@@ -1119,7 +1119,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 75,
 		"fields": {
 			"course_id": 38,
 			"room": "A006",
@@ -1130,7 +1130,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 76,
 		"fields": {
 			"course_id": 38,
 			"room": "A006",
@@ -1149,7 +1149,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 77,
 		"fields": {
 			"course_id": 39,
 			"room": "C02",
@@ -1160,7 +1160,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 78,
 		"fields": {
 			"course_id": 39,
 			"room": "C02",
@@ -1179,7 +1179,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 79,
 		"fields": {
 			"course_id": 40,
 			"room": "C12",
@@ -1190,7 +1190,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 80,
 		"fields": {
 			"course_id": 40,
 			"room": "C12",
@@ -1209,7 +1209,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 81,
 		"fields": {
 			"course_id": 41,
 			"room": "C22",
@@ -1220,7 +1220,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 82,
 		"fields": {
 			"course_id": 41,
 			"room": "C22",
@@ -1239,7 +1239,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 83,
 		"fields": {
 			"course_id": 42,
 			"room": "A006",
@@ -1250,7 +1250,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 84,
 		"fields": {
 			"course_id": 42,
 			"room": "A006",
@@ -1269,7 +1269,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 85,
 		"fields": {
 			"course_id": 43,
 			"room": "A106",
@@ -1280,7 +1280,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 86,
 		"fields": {
 			"course_id": 43,
 			"room": "A106",
@@ -1299,7 +1299,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 87,
 		"fields": {
 			"course_id": 44,
 			"room": "C22",
@@ -1310,7 +1310,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 88,
 		"fields": {
 			"course_id": 44,
 			"room": "C22",
@@ -1329,7 +1329,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 89,
 		"fields": {
 			"course_id": 45,
 			"room": "C11",
@@ -1340,7 +1340,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 90,
 		"fields": {
 			"course_id": 45,
 			"room": "C11",
@@ -1359,7 +1359,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 91,
 		"fields": {
 			"course_id": 46,
 			"room": "C03",
@@ -1370,7 +1370,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 92,
 		"fields": {
 			"course_id": 46,
 			"room": "C03",
@@ -1389,7 +1389,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 93,
 		"fields": {
 			"course_id": 47,
 			"room": "C21",
@@ -1400,7 +1400,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 94,
 		"fields": {
 			"course_id": 47,
 			"room": "C21",
@@ -1419,7 +1419,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 95,
 		"fields": {
 			"course_id": 48,
 			"room": "C24",
@@ -1430,7 +1430,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 96,
 		"fields": {
 			"course_id": 48,
 			"room": "C24",
@@ -1449,7 +1449,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 97,
 		"fields": {
 			"course_id": 49,
 			"room": "C02",
@@ -1460,7 +1460,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 98,
 		"fields": {
 			"course_id": 49,
 			"room": "C02",
@@ -1479,7 +1479,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 99,
 		"fields": {
 			"course_id": 50,
 			"room": "C03",
@@ -1490,7 +1490,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 100,
 		"fields": {
 			"course_id": 50,
 			"room": "C03",
@@ -1509,7 +1509,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 101,
 		"fields": {
 			"course_id": 51,
 			"room": "C21",
@@ -1520,7 +1520,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 102,
 		"fields": {
 			"course_id": 51,
 			"room": "C21",
@@ -1539,7 +1539,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 103,
 		"fields": {
 			"course_id": 52,
 			"room": "C22",
@@ -1550,7 +1550,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 104,
 		"fields": {
 			"course_id": 52,
 			"room": "C22",
@@ -1569,7 +1569,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 105,
 		"fields": {
 			"course_id": 53,
 			"room": "C13",
@@ -1580,7 +1580,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 106,
 		"fields": {
 			"course_id": 53,
 			"room": "C13",
@@ -1599,7 +1599,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 107,
 		"fields": {
 			"course_id": 54,
 			"room": "C01",
@@ -1610,7 +1610,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 108,
 		"fields": {
 			"course_id": 54,
 			"room": "C01",
@@ -1629,7 +1629,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 109,
 		"fields": {
 			"course_id": 55,
 			"room": "C02",
@@ -1640,7 +1640,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 110,
 		"fields": {
 			"course_id": 55,
 			"room": "C02",
@@ -1659,7 +1659,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 111,
 		"fields": {
 			"course_id": 56,
 			"room": "C11",
@@ -1670,7 +1670,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 112,
 		"fields": {
 			"course_id": 56,
 			"room": "C11",
@@ -1689,7 +1689,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 113,
 		"fields": {
 			"course_id": 57,
 			"room": "C01",
@@ -1700,7 +1700,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 114,
 		"fields": {
 			"course_id": 57,
 			"room": "C01",
@@ -1719,7 +1719,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 115,
 		"fields": {
 			"course_id": 58,
 			"room": "C12",
@@ -1730,7 +1730,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 116,
 		"fields": {
 			"course_id": 58,
 			"room": "C12",
@@ -1749,7 +1749,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 117,
 		"fields": {
 			"course_id": 59,
 			"room": "C12",
@@ -1760,7 +1760,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 118,
 		"fields": {
 			"course_id": 59,
 			"room": "C12",
@@ -1779,7 +1779,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 1,
+		"pk": 119,
 		"fields": {
 			"course_id": 60,
 			"room": "LR1",
@@ -1790,7 +1790,7 @@
 	},
 	{
 		"model": "main.courseslot",
-		"pk": 2,
+		"pk": 120,
 		"fields": {
 			"course_id": 60,
 			"room": "LR1",
@@ -1798,5 +1798,35 @@
 			"end_time": "5:30",
 			"day": "WED"
 		}
-	}
+	},
+	{
+    "model": "main.course",
+    "pk": 61,
+    "fields": {
+      "name": "Designing Human-Centered Systems",
+      "code": "DHCS"
+    }
+  },
+  {
+    "model": "main.courseslot",
+    "pk": 121,
+    "fields": {
+      "course_id": 61,
+      "room": "A106",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "day": "MON"
+    }
+  },
+  {
+    "model": "main.courseslot",
+    "pk": 122,
+    "fields": {
+      "course_id": 61,
+      "room": "C01",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "day": "THU"
+    }
+  }
 ]
