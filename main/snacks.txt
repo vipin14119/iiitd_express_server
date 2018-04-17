@@ -1,0 +1,7 @@
+Monday,Dahi Bhalla,Rasna/Tang
+Tuesday,Macaroni,Coffe
+Wednesday,Aloo Sandwich,Coffee
+Thrusday,Samosa,Tea
+Friday,ChowMein,Coffee
+Saturday,Aloo Bread Roll,Tea
+Sunday,Kachori,tea

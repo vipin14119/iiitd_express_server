@@ -1,0 +1,7 @@
+Monday,Kala Chana,Ghiya kofta,Rice,Roti,Salad,Mix Raita
+Tuesday,Arhar Dal,Dum Aloo,Rice,Roti,Vinegar Onion,Salad,Papad,Boondi Raita
+Wednesday,Rajma,Aloo Methi,Rice,Roti,Papad,Salad,Kheera Raita
+Thrusday,Kadhi,Aloo Gobhi,Rice,Roti,Papad,Salad
+Friday,Mix Veg,Masoor Dal(Black),Rice,Roti,Sprouts,Papad,Boondi Raita
+Saturday,Chole Bhature,Jeera Rice,Salad,Papad,Pickle,Curd
+Sunday,Vegetable Pulao,Dal Makhani,Aloo Beans,Kheera Raita,Roti,Salad,Papad

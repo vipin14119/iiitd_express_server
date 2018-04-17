@@ -1,0 +1,7 @@
+Monday,Cutlet,Sprouts,Bread Butter,Milk/Tea,Milk,2 Bread Slices,Butter,Boiled Eggs/Banana(2 pieces)
+Tuesday,Sambar Idli,Cocunut Chutney,Milk/Tea,Cornflakes,Bread BUtter,Milk,2 Bread Slices,Butter,Boiled Eggs/Banana(2 pieces)
+Wednesday,Gobhi Parantha,Dhaniya Chutney,Cornflakes,Milk/Tea,Bread Butter,Milk,2 Bread Slices,Butter,Boiled Eggs/Banana(2 pieces)
+Thursday,Allo,Poori,Sprouts,Bread Butter,Milk/Tea,Milk,2 Bread Slices,Butter,Boiled Eggs/Banana(2 pieces)
+Friday,Sambar Vada,Cocunut Chutney,Cornflakes,Bread Butter,Milk/Tea,Milk,2 Bread Slices,Butter,Boiled Eggs/Banana(2 pieces)
+Saturday,Allo Parantha,Bread Butter,Milk/Tea,Milk,2 Bread Slices,Butter,Boiled Eggs/Banana(2 pieces)
+Sunday,uttapam Sambar,Cocunut Chutney,Corn Flakes,Milk/Tea,Bread Butter,Milk,2 Bread Slices,Butter,Boiled Eggs/Banana(2 pieces)

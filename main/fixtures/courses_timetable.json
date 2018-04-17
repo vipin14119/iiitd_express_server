@@ -1,0 +1,92 @@
+[
+  {
+    "model": "main.course",
+    "pk": 1,
+    "fields": {
+      "name": "Designing Human-Centered Systems",
+      "code": "DHCS"
+    }
+  },
+  {
+    "model": "main.courseslot",
+    "pk": 1,
+    "fields": {
+      "course_id": 1,
+      "room": "A106",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "day": "MON"
+    }
+  },
+  {
+    "model": "main.courseslot",
+    "pk": 2,
+    "fields": {
+      "course_id": 1,
+      "room": "C01",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "day": "THU"
+    }
+  },
+  {
+    "model": "main.course",
+    "pk": 2,
+    "fields": {
+      "name": "Computer Vision",
+      "code": "CV"
+    }
+  },
+  {
+    "model": "main.courseslot",
+    "pk": 3,
+    "fields": {
+      "course_id": 2,
+      "room": "C24",
+      "start_time": "11:30",
+      "end_time": "01:00",
+      "day": "MON"
+    }
+  },
+  {
+    "model": "main.courseslot",
+    "pk": 4,
+    "fields": {
+      "course_id": 2,
+      "room": "C24",
+      "start_time": "11:30",
+      "end_time": "01:00",
+      "day": "WED"
+    }
+  },
+  {
+    "model": "main.course",
+    "pk": 3,
+    "fields": {
+      "name": "A&G",
+      "code": "Animations and Graphics"
+    }
+  },
+  {
+    "model": "main.courseslot",
+    "pk": 5,
+    "fields": {
+      "course_id": 3,
+      "room": "C24/L21",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "day": "TUE"
+    }
+  },
+  {
+    "model": "main.courseslot",
+    "pk": 6,
+    "fields": {
+      "course_id": 3,
+      "room": "A006/L21",
+      "start_time": "11:30",
+      "end_time": "01:00",
+      "day": "THU"
+    }
+  }
+]

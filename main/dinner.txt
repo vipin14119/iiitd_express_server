@@ -1,0 +1,7 @@
+Monday,Moong sabut,Gobhi Matar,Rice,Roti,Macaroni salad,Suji Halwa
+Tuesday,Masoor Dal,Mix Veg,Roti,Rice,Salad,Gajar ka Halwa
+Wednesday,Kadhai Chicken,Kadhai Paneer,Arhar Dal,Rice,Roti,Salad,Gulab Jamun
+Thrusday,Mix Dal,gajar Matar,Jeera Rice,Roti,Salad,Moong Dal Halwa
+Friday,Egg Curry,Palak Paneer,Moong Sabut,Rice,Roti,Sald,Fruit Custard
+Saturday,Shimla Mirch,Aloo,Ghiya Chana,Rice,Roti,Salad,Kheer
+Sunday,Shahi Paneer,Veg Biryani,Chicken Pulao/Biryani,Boondi Raita,Rice,Roti,Salad,Sponge Rasgulla
