@@ -155,25 +155,124 @@ def get_mess_menu(request):
     return JsonResponse({'code': 1, 'data': json_obj})
 
 
+@csrf_exempt
+def get_my_courses(request):
+    if request.method == "POST":
+        data = json.loads(request.body)
+        username = data['username']
+        password = data['password']
+
+        try:
+            user = User.objects.get(username=username, password=password)
+
+            usercourses = map(lambda x: x.course, UserCourses.objects.filter(user=user))
+            
+            json_data = []
+            for course in usercourses:
+                slots = course.courseslot_set.all()
+                slots_json = []
+                for slot in slots:
+                    slots_json.append({
+                        "id": slot.id,
+                        "room": slot.room,
+                        "start_time": slot.start_time,
+                        "end_time": slot.end_time,
+                        "day": slot.day
+                    })
+                json_data.append({
+                    "id": course.id,
+                    "code": course.code,
+                    "name": course.name,
+                    "slots": slots_json
+                })
+            return  JsonResponse({'code': 1, 'data': json_data})
+        except:
+            return JsonResponse({'code': -1, 'data': []})
+
+
+@csrf_exempt
 def get_courses(request):
+    if request.method == "POST":
+        data = json.loads(request.body)
+        username = data['username']
+        password = data['password']
+        user = User.objects.get(username=username, password=password)
+
+        all_courses = Course.objects.all()
+        usercourses = map(lambda x: x.course, UserCourses.objects.filter(user=user))
+        not_selected_courses = list(set(all_courses) - set(usercourses))
+        
+        json_data = []
+        for course in usercourses:
+            slots = course.courseslot_set.all()
+            slots_json = []
+            for slot in slots:
+                slots_json.append({
+                    "id": slot.id,
+                    "room": slot.room,
+                    "start_time": slot.start_time,
+                    "end_time": slot.end_time,
+                    "day": slot.day
+                })
+            json_data.append({
+                "id": course.id,
+                "code": course.code,
+                "name": course.name,
+                "slots": slots_json,
+                "added": 1
+            })
+        for course in not_selected_courses:
+            slots = course.courseslot_set.all()
+            slots_json = []
+            for slot in slots:
+                slots_json.append({
+                    "id": slot.id,
+                    "room": slot.room,
+                    "start_time": slot.start_time,
+                    "end_time": slot.end_time,
+                    "day": slot.day
+                })
+            json_data.append({
+                "id": course.id,
+                "code": course.code,
+                "name": course.name,
+                "slots": slots_json,
+                "added": 0
+            })
+        return  JsonResponse({'code': 1, 'data': json_data})
+        # try:
+            
+        # except:
+        #     return JsonResponse({'code': -1, 'data': []})
+
+def get_all_courses(request):
     all_courses = Course.objects.all()
-    usercourses = map(lambda x: x.course, UserCourses.objects.filter(user__username='admin'))
-    final_courses = [course for course in all_courses if course not in usercourses]
-    print final_courses
     json_data = []
-    for course in final_courses:
+    for course in all_courses:
+        slots = course.courseslot_set.all()
+        slots_json = []
+        for slot in slots:
+            slots_json.append({
+                "id": slot.id,
+                "room": slot.room,
+                "start_time": slot.start_time,
+                "end_time": slot.end_time,
+                "day": slot.day
+            })
         json_data.append({
             "id": course.id,
             "code": course.code,
-            "name": course.name
+            "name": course.name,
+            "slots": slots_json
         })
-    return  JsonResponse({'code': 1, 'data': json_data})
 
+    return  JsonResponse({'code': 1, 'data': json_data})
 
 @csrf_exempt
 def add_course(request):
     if request.method == "POST":
         code = json.loads(request.body)['code']
+        print "Code : "+ code
         user = User.objects.get(username="admin")
         course = Course.objects.get(code=code)
 
@@ -183,6 +282,24 @@ def add_course(request):
             return JsonResponse({"code": 1, "data": "Course has been added succesfully"})
         else:
             return JsonResponse({"code": 1, "data": "Course had been already added before"})
+
+
+@csrf_exempt
+def remove_course(request):
+    if request.method == "POST":
+        data = json.loads(request.body)
+        username = data['username']
+        password = data['password']
+        code = data['code']
+        user = User.objects.get(username=username, password=password)
+        course = Course.objects.get(code=code)
+
+        if len(UserCourses.objects.filter(user=user, course=course)) > 0:
+            usercourse = UserCourses.objects.get(user=user, course=course)
+            usercourse.delete()
+            return JsonResponse({"code": 1, "data": "Course has been deleted succesfully"})
+        else:
+            return JsonResponse({"code": 1, "data": "No Such course added to remove"})
 
 
 @csrf_exempt
@@ -206,12 +323,31 @@ def get_course_slots(request):
 @csrf_exempt
 def get_day_courses(request):
     if request.method == "POST":
-        day = json.loads(request.body)['day'].upper()
-        slots = CourseSlot.objects.filter(day=day)
+        data = json.loads(request.body)
+        username = data['username']
+        password = data['password']
+        day = data['day'].upper()
+
+        user = User.objects.get(username=username, password=password)
+
+        all_courses = Course.objects.all()
+        usercourses = map(lambda x: x.course, UserCourses.objects.filter(user=user))
+        slots = []
+        
+        for course in usercourses:
+            course_slots = course.courseslot_set.all()
+            for slot in course_slots:
+                slots.append(slot)
+
+        final_slots = []
+        for slot in slots:
+            if slot.day == day:
+                final_slots.append(slot)
+        # slots = CourseSlot.objects.filter(day=day)
 
         slots_json = []
 
-        for slot in slots:
+        for slot in final_slots:
             slots_json.append({
                 "id": slot.id,
                 "course": slot.course.code,
