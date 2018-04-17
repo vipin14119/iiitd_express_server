@@ -271,8 +271,11 @@ def get_all_courses(request):
 @csrf_exempt
 def add_course(request):
     if request.method == "POST":
-        code = json.loads(request.body)['code']
-        print "Code : "+ code
+        data = json.loads(request.body)
+        username = data['username']
+        password = data['password']
+        code = data['code']
+        print "Adding Code : "+ code
         user = User.objects.get(username="admin")
         course = Course.objects.get(code=code)
 
@@ -291,6 +294,7 @@ def remove_course(request):
         username = data['username']
         password = data['password']
         code = data['code']
+        print "Removing Code : "+ code
         user = User.objects.get(username=username, password=password)
         course = Course.objects.get(code=code)
 
