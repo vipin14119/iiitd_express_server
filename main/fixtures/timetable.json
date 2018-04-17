@@ -1,0 +1,1802 @@
+[
+	{
+		"model": "main.course",
+		"pk": 1,
+		"fields": {
+			"name": "Introduction to Mathematical Biology",
+			"code": "IMB"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 1,
+			"room": "A106",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 1,
+			"room": "A106",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 2,
+		"fields": {
+			"name": "Introduction to Computational Neuroscience",
+			"code": "ICN"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 2,
+			"room": "C13",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 2,
+			"room": "C13",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 3,
+		"fields": {
+			"name": "Network Science",
+			"code": "NS"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 3,
+			"room": "LR1/C22",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 3,
+			"room": "LR1/C22",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 4,
+		"fields": {
+			"name": "Cheminformatics",
+			"code": "CHI"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 4,
+			"room": "C03",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 4,
+			"room": "C03",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 5,
+		"fields": {
+			"name": "Big Data Mining in Healthcare",
+			"code": "BDMH"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 5,
+			"room": "C24",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 5,
+			"room": "C24",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 6,
+		"fields": {
+			"name": "Theory of Computation",
+			"code": "TOC"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 6,
+			"room": "C11",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 6,
+			"room": "C11",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 7,
+		"fields": {
+			"name": "Statiscal Machine Learning",
+			"code": "SML"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 7,
+			"room": "C11",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 7,
+			"room": "C11",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 8,
+		"fields": {
+			"name": "Computer Vision",
+			"code": "CV"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 8,
+			"room": "C24",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 8,
+			"room": "C24",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 9,
+		"fields": {
+			"name": "Foundation of Parallel Programming",
+			"code": "FPP"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 9,
+			"room": "B105",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 9,
+			"room": "B105",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 10,
+		"fields": {
+			"name": "Information Retrieval",
+			"code": "IR"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 10,
+			"room": "A006",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 10,
+			"room": "A006",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 11,
+		"fields": {
+			"name": "Big Data Analytics",
+			"code": "BDA"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 11,
+			"room": "C13",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 11,
+			"room": "C13",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 12,
+		"fields": {
+			"name": "Randomised Algorithms",
+			"code": "RA"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 12,
+			"room": "C22",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 12,
+			"room": "C22",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 13,
+		"fields": {
+			"name": "Theory of Modern Cryptography",
+			"code": "TMC"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 13,
+			"room": "C12",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 13,
+			"room": "C12",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 14,
+		"fields": {
+			"name": "Mobile Computing",
+			"code": "MC"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 14,
+			"room": "C03",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 14,
+			"room": "C03",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 15,
+		"fields": {
+			"name": "GPU Computing",
+			"code": "GPU"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 15,
+			"room": "C21",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 15,
+			"room": "C21",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 16,
+		"fields": {
+			"name": "Probabilistic Graphical Models",
+			"code": "PGM"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 16,
+			"room": "C03",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 16,
+			"room": "C03",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 17,
+		"fields": {
+			"name": "Statistical Computation",
+			"code": "SC"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 17,
+			"room": "C12",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 17,
+			"room": "C12",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 18,
+		"fields": {
+			"name": "Introduction to Quantum Computing",
+			"code": "IQC"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 18,
+			"room": "C03",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 18,
+			"room": "C03",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 19,
+		"fields": {
+			"name": "Robotics",
+			"code": "ROB"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 19,
+			"room": "C23",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 19,
+			"room": "C23",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 20,
+		"fields": {
+			"name": "Deep Learning",
+			"code": "DL"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 20,
+			"room": "C12",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 20,
+			"room": "C12",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 21,
+		"fields": {
+			"name": "Multimedia Security",
+			"code": "MS"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 21,
+			"room": "C22",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 21,
+			"room": "C22",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 22,
+		"fields": {
+			"name": "Advance Topics in Mobile Computing",
+			"code": "ATMC"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 22,
+			"room": "C23",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 22,
+			"room": "C23",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 23,
+		"fields": {
+			"name": "Virtual Reality(New)",
+			"code": "VR"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 23,
+			"room": "C03",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 23,
+			"room": "C03",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 24,
+		"fields": {
+			"name": "Multimedia Computing and Applications(New)",
+			"code": "MCA"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 24,
+			"room": "C13",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 24,
+			"room": "C13",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 25,
+		"fields": {
+			"name": "Advanced Internet of Things(New)",
+			"code": "AIOT"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 25,
+			"room": "C03",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 25,
+			"room": "C03",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 26,
+		"fields": {
+			"name": "Advanced Operating Systems(New)",
+			"code": "AOS"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 26,
+			"room": "B105",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 26,
+			"room": "B105",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 27,
+		"fields": {
+			"name": "Data Warehousing(New)",
+			"code": "DW"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 27,
+			"room": "C13",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 27,
+			"room": "C13",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 28,
+		"fields": {
+			"name": "Approximation Algorithms",
+			"code": "AAG"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 28,
+			"room": "C03",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 28,
+			"room": "C03",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 29,
+		"fields": {
+			"name": "Reinforcement Learning(New)",
+			"code": "RL"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 29,
+			"room": "C03",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 29,
+			"room": "C03",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 30,
+		"fields": {
+			"name": "Animation and Graphics",
+			"code": "A&G"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 30,
+			"room": "C24/L21",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 30,
+			"room": "C24/L21",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 31,
+		"fields": {
+			"name": "Game Design and Development(New)",
+			"code": "GDD"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 31,
+			"room": "L21",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 31,
+			"room": "L21",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 32,
+		"fields": {
+			"name": "Mobile Communication",
+			"code": "MCom"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 32,
+			"room": "C12",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 32,
+			"room": "C12",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 33,
+		"fields": {
+			"name": "Statistical Signal Processing",
+			"code": "SSP"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 33,
+			"room": "C22",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 33,
+			"room": "C22",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 34,
+		"fields": {
+			"name": "Digital Hardware Design",
+			"code": "DHD"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 34,
+			"room": "C22",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 34,
+			"room": "C22",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 35,
+		"fields": {
+			"name": "Optical Communication Systems",
+			"code": "OCMS"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 35,
+			"room": "C23",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 35,
+			"room": "C23",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 36,
+		"fields": {
+			"name": "Wireless System Implementation",
+			"code": "WSI"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 36,
+			"room": "C24",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 36,
+			"room": "C24",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 37,
+		"fields": {
+			"name": "Optimal Control Systems",
+			"code": "OCS"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 37,
+			"room": "C22",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 37,
+			"room": "C22",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 38,
+		"fields": {
+			"name": "Advanced Embedded Logic Design",
+			"code": "AELD"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 38,
+			"room": "A006",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 38,
+			"room": "A006",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 39,
+		"fields": {
+			"name": "Memory Design and Testing",
+			"code": "MDT"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 39,
+			"room": "C02",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 39,
+			"room": "C02",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 40,
+		"fields": {
+			"name": "Mixed Signal Design",
+			"code": "MSD"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 40,
+			"room": "C12",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 40,
+			"room": "C12",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 41,
+		"fields": {
+			"name": "Radar Systems",
+			"code": "RS"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 41,
+			"room": "C22",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 41,
+			"room": "C22",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 42,
+		"fields": {
+			"name": "Introduction to Nanoelectronics",
+			"code": "INE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 42,
+			"room": "A006",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 42,
+			"room": "A006",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 43,
+		"fields": {
+			"name": "Microeconomics",
+			"code": "ME"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 43,
+			"room": "A106",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 43,
+			"room": "A106",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 44,
+		"fields": {
+			"name": "Market Design(New)",
+			"code": "MD"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 44,
+			"room": "C22",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 44,
+			"room": "C22",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 45,
+		"fields": {
+			"name": "Research Methods",
+			"code": "RM"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 45,
+			"room": "C11",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 45,
+			"room": "C11",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 46,
+		"fields": {
+			"name": "Entrepreneurship II",
+			"code": "ENTII"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 46,
+			"room": "C03",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 46,
+			"room": "C03",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 47,
+		"fields": {
+			"name": "Valuation and Portfolio Management",
+			"code": "VPM"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 47,
+			"room": "C21",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 47,
+			"room": "C21",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 48,
+		"fields": {
+			"name": "Effective Supply Chain Management for E Commerce",
+			"code": "SCM"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 48,
+			"room": "C24",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 48,
+			"room": "C24",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 49,
+		"fields": {
+			"name": "Introduction to Mathematical Logic(New)",
+			"code": "IML"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 49,
+			"room": "C02",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 49,
+			"room": "C02",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 50,
+		"fields": {
+			"name": "Combinatorics and its Applications(New)",
+			"code": "CIA"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 50,
+			"room": "C03",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 50,
+			"room": "C03",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 51,
+		"fields": {
+			"name": "Graph Theory",
+			"code": "GT"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 51,
+			"room": "C21",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 51,
+			"room": "C21",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 52,
+		"fields": {
+			"name": "Linear Optimization",
+			"code": "LO"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 52,
+			"room": "C22",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 52,
+			"room": "C22",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 53,
+		"fields": {
+			"name": "Numerical Solutions for Differential Equations",
+			"code": "NSDE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 53,
+			"room": "C13",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "TUE"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 53,
+			"room": "C13",
+			"start_time": "2:30",
+			"end_time": "4:00",
+			"day": "FRI"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 54,
+		"fields": {
+			"name": "Positive Psychology",
+			"code": "PPSY"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 54,
+			"room": "C01",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 54,
+			"room": "C01",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 55,
+		"fields": {
+			"name": "Introduction to Cognitive Psychology(New)",
+			"code": "CPSY"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 55,
+			"room": "C02",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 55,
+			"room": "C02",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 56,
+		"fields": {
+			"name": "Introduction to Sociology/Anthropology(New)",
+			"code": "ISA"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 56,
+			"room": "C11",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 56,
+			"room": "C11",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 57,
+		"fields": {
+			"name": "Anthropology of Social Media(New)",
+			"code": "ASM"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 57,
+			"room": "C01",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 57,
+			"room": "C01",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 58,
+		"fields": {
+			"name": "Introduction to Philosophy(New)",
+			"code": "IPHI"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 58,
+			"room": "C12",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 58,
+			"room": "C12",
+			"start_time": "11:30",
+			"end_time": "1:00",
+			"day": "THU"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 59,
+		"fields": {
+			"name": "Critical Thinking",
+			"code": "CT"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 59,
+			"room": "C12",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 59,
+			"room": "C12",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "WED"
+		}
+	},
+	{
+		"model": "main.course",
+		"pk": 60,
+		"fields": {
+			"name": "Introduction to Study of Literature",
+			"code": "Lit"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 1,
+		"fields": {
+			"course_id": 60,
+			"room": "LR1",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "MON"
+		}
+	},
+	{
+		"model": "main.courseslot",
+		"pk": 2,
+		"fields": {
+			"course_id": 60,
+			"room": "LR1",
+			"start_time": "4:00",
+			"end_time": "5:30",
+			"day": "WED"
+		}
+	}
+]
