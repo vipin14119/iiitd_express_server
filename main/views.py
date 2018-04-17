@@ -166,7 +166,7 @@ def get_my_courses(request):
             user = User.objects.get(username=username, password=password)
 
             usercourses = map(lambda x: x.course, UserCourses.objects.filter(user=user))
-            
+
             json_data = []
             for course in usercourses:
                 slots = course.courseslot_set.all()
@@ -201,7 +201,7 @@ def get_courses(request):
         all_courses = Course.objects.all()
         usercourses = map(lambda x: x.course, UserCourses.objects.filter(user=user))
         not_selected_courses = list(set(all_courses) - set(usercourses))
-        
+
         json_data = []
         for course in usercourses:
             slots = course.courseslot_set.all()
@@ -241,7 +241,7 @@ def get_courses(request):
             })
         return  JsonResponse({'code': 1, 'data': json_data})
         # try:
-            
+
         # except:
         #     return JsonResponse({'code': -1, 'data': []})
 
@@ -333,7 +333,7 @@ def get_day_courses(request):
         all_courses = Course.objects.all()
         usercourses = map(lambda x: x.course, UserCourses.objects.filter(user=user))
         slots = []
-        
+
         for course in usercourses:
             course_slots = course.courseslot_set.all()
             for slot in course_slots:
@@ -351,6 +351,7 @@ def get_day_courses(request):
             slots_json.append({
                 "id": slot.id,
                 "course": slot.course.code,
+                "name": slot.course.name,
                 "room": slot.room,
                 "start_time": slot.start_time,
                 "end_time": slot.end_time,
