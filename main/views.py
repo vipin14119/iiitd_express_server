@@ -272,6 +272,7 @@ def get_all_courses(request):
 def add_course(request):
     if request.method == "POST":
         code = json.loads(request.body)['code']
+        print "Code : "+ code
         user = User.objects.get(username="admin")
         course = Course.objects.get(code=code)
 
@@ -322,12 +323,31 @@ def get_course_slots(request):
 @csrf_exempt
 def get_day_courses(request):
     if request.method == "POST":
-        day = json.loads(request.body)['day'].upper()
-        slots = CourseSlot.objects.filter(day=day)
+        data = json.loads(request.body)
+        username = data['username']
+        password = data['password']
+        day = data['day'].upper()
+
+        user = User.objects.get(username=username, password=password)
+
+        all_courses = Course.objects.all()
+        usercourses = map(lambda x: x.course, UserCourses.objects.filter(user=user))
+        slots = []
+        
+        for course in usercourses:
+            course_slots = course.courseslot_set.all()
+            for slot in course_slots:
+                slots.append(slot)
+
+        final_slots = []
+        for slot in slots:
+            if slot.day == day:
+                final_slots.append(slot)
+        # slots = CourseSlot.objects.filter(day=day)
 
         slots_json = []
 
-        for slot in slots:
+        for slot in final_slots:
             slots_json.append({
                 "id": slot.id,
                 "course": slot.course.code,
