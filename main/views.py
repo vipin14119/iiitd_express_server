@@ -8,7 +8,7 @@ import urllib
 import os
 
 from django.core import serializers
-from .models import Course, CourseSlot, UserCourses, User
+from .models import Course, CourseSlot, UserCourses, User, Faculty, People
 
 from iiitd_express.settings import BASE_DIR
 
@@ -18,12 +18,13 @@ visiting_faculty = "https://www.iiitd.ac.in/people/visiting-faculty"
 adminstration = "https://www.iiitd.ac.in/people/administration"
 
 @csrf_exempt
-def get_faculty_json(request):
+def get_faculty_json_from_link(request):
     faculty = "https://www.iiitd.ac.in/people/faculty"
     f = urllib.urlopen(faculty)
     soup = BeautifulSoup(f.read(), 'html.parser')
 
     faculty_names = []
+    faculty_links = []
     faculty_designation = []
     faculty_education = []
     faculty_interest = []
@@ -33,6 +34,8 @@ def get_faculty_json(request):
         count = 0
         for a in data.find_all('a'):
             if(a.text != ''):
+                personal_link = "https://iiitd.ac.in"+a.get("href")
+                faculty_links.append(personal_link)
                 faculty_names.append(a.text)
         for c in data.find_all('p'):
             if count == 0:
@@ -55,17 +58,107 @@ def get_faculty_json(request):
     json_dict = []
 
     for i in range(len(faculty_names)):
+        faculty = Faculty(name=faculty_names[i], designation=faculty_designation[i],education= faculty_education[i], interest=faculty_interest[i], link=faculty_links[i])
+        faculty.save()
         obj = {
             'name': faculty_names[i],
             'designation': faculty_designation[i],
             'education': faculty_education[i],
-            'interest': faculty_interest[i]
+            'interest': faculty_interest[i],
+            'link': faculty_links[i]
         }
         json_dict.append(obj)
 
     return JsonResponse(json_dict, safe=False)
 
+@csrf_exempt
+def get_faculty_json(request):
+    faculties = Faculty.objects.all()
+    json_dict = []
+    for faculty in faculties:
+        obj = {
+            'name': faculty.name,
+            'designation': faculty.designation,
+            'education': faculty.education,
+            'interest': faculty.interest,
+            'link': faculty.link,
+            'email': faculty.email,
+            'website': faculty.website
+        }
+        # url = urllib.urlopen(faculty.link)
+        # soup = BeautifulSoup(url.read(), 'html.parser')
+        # div =  soup.find_all('div', class_='field field-name-field-contact field-type-text-long field-label-above')[0]
+        # atags = div.find_all('a')
+        # email = "NA"
+        # website = "NA"
+        # try:
+        #     email = atags[0].text
+        # except:
+        #     continue
+        # try:
+        #     website = atags[1].text
+        # except:
+        #     continue
+        # faculty.email = email
+        # faculty.website = website
+        # faculty.save()
+        # print email
+        # print website
+        json_dict.append(obj)
+    return JsonResponse({'code': 1, 'data': json_dict})
 
+@csrf_exempt
+def get_directory_json(request):
+
+    types = ['acad', 'fms', 'serv']
+    final_dict = {}
+    for type in types:
+        peoples = People.objects.filter(type=type)
+        json_dict = []
+        for people in peoples:
+            obj = {
+                'name': people.name,
+                'designation': people.designation,
+                'room': people.room,
+                'email': people.email
+            }
+            json_dict.append(obj)
+        final_dict[type] = json_dict
+
+    return JsonResponse({'code': 1, 'data': final_dict})
+
+
+def get_academic_link_json():
+    acad_link = "http://iiitd.ac.in/people/administration"
+    url = urllib.urlopen(acad_link)
+    soup = BeautifulSoup(url.read(), 'html.parser')
+    divs = soup.findAll('div', attrs={'id': 'cards-container'})[-2:]
+    print divs
+    for div in divs:
+        for card in div.find_all('div', class_='card rteleft'):
+            name = card.find('strong').text
+            fields = card.find('p').text.split("\n")
+            people = People(name=name, designation=fields[0], room=fields[1], email=fields[2])
+            people.save()
+            print people
+
+
+    # atags = div.find_all('a')
+    # email = "NA"
+    # website = "NA"
+    # try:
+    #     email = atags[0].text
+    # except:
+    #     continue
+    # try:
+    #     website = atags[1].text
+    # except:
+    #     continue
+    # faculty.email = email
+    # faculty.website = website
+    # faculty.save()
+    # print email
+    # print website
 
 def get_visiting_faculty_json(request):
     if request.method == 'GET':

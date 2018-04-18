@@ -18,6 +18,33 @@ class Course(models.Model):
         return self.name
 
 
+class Faculty(models.Model):
+    name = models.CharField(max_length=500)
+    designation = models.CharField(max_length=2000)
+    education = models.CharField(max_length=2000)
+    interest = models.CharField(max_length=2000)
+    link = models.CharField(max_length=2000)
+    email = models.CharField(max_length=50)
+    website = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
+
+class People(models.Model):
+    TYPE_CHOICES = (
+        ('acad', 'Academic'),
+        ('fms', 'FMS'),
+        ('serv', 'Services'),
+    )
+    name = models.CharField(max_length=100)
+    designation = models.CharField(max_length=200, blank=True, null=True)
+    room = models.CharField(max_length=200, blank=True, null=True)
+    email = models.CharField(max_length=200, blank=True, null=True)
+    type = models.CharField(max_length=50, choices=TYPE_CHOICES, default='acad')
+
+    def __str__(self):
+        return self.name
+
 class CourseSlot(models.Model):
 
     DAY_CHOICES = (

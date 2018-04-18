@@ -17,7 +17,8 @@ from django.conf.urls import url
 from django.contrib import admin
 
 from main.views import (get_faculty_json, get_visiting_faculty_json, get_mess_menu,
-get_my_courses, get_course_slots, get_day_courses, add_course, get_all_courses, get_courses, remove_course)
+get_my_courses, get_course_slots, get_day_courses, add_course, get_all_courses, get_courses, remove_course,
+get_directory_json)
 
 
 urlpatterns = [
@@ -30,5 +31,6 @@ urlpatterns = [
     url(r'^get_day_courses', get_day_courses, name='get_day_courses'),
     url(r'^get_all_courses', get_courses, name='get_all_courses'),
     url(r'^add_course', add_course, name='add_course'),
-    url(r'^remove_course', remove_course, name='remove_course')
+    url(r'^remove_course', remove_course, name='remove_course'),
+    url(r'^get_directory_json', get_directory_json, name='get_directory_json')
 ]
