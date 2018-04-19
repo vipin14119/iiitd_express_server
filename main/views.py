@@ -19,24 +19,26 @@ adminstration = "https://www.iiitd.ac.in/people/administration"
 
 @csrf_exempt
 def register_user(request):
-    data = json.loads(request.body)
-    username = data['username']
-    password = data['password']
-    if(len(User.objects.filter(username=username, password=password)) > 0):
-        user = User.objects.filter(username=username, password=password)[0]
-        json_dict = {
-            'username': user.username,
-            'password': user.password
-        }
-        return JsonResponse({'code': 2, 'data': json_dict})
-    else:
-        user = User(username=username, password=password)
-        user.save()
-        json_dict = {
-            'username': user.username,
-            'password': user.password
-        }
-        return JsonResponse({'code': 1, 'data': json_dict})
+    if request.method == "POST":
+        data = json.loads(request.body)
+        print data
+        username = data['username']
+        password = data['password']
+        if(len(User.objects.filter(username=username, password=password)) > 0):
+            user = User.objects.filter(username=username, password=password)[0]
+            json_dict = {
+                'username': user.username,
+                'password': user.password
+            }
+            return JsonResponse({'code': 2, 'data': json_dict})
+        else:
+            user = User(username=username, password=password)
+            user.save()
+            json_dict = {
+                'username': user.username,
+                'password': user.password
+            }
+            return JsonResponse({'code': 1, 'data': json_dict})
 
 
 
