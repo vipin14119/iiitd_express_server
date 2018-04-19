@@ -24,7 +24,7 @@ def register_user(request):
         print data
         username = data['username']
         password = data['password']
-        if(len(User.objects.filter(username=username, password=password)) > 0):
+        if(len(User.objects.filter(username=username)) > 0):
             user = User.objects.filter(username=username, password=password)[0]
             json_dict = {
                 'username': user.username,
@@ -281,7 +281,7 @@ def get_my_courses(request):
         password = data['password']
 
         try:
-            user = User.objects.get(username=username, password=password)
+            user = User.objects.get(username=username)
 
             usercourses = map(lambda x: x.course, UserCourses.objects.filter(user=user))
 
@@ -314,7 +314,7 @@ def get_courses(request):
         data = json.loads(request.body)
         username = data['username']
         password = data['password']
-        user = User.objects.get(username=username, password=password)
+        user = User.objects.get(username=username)
 
         all_courses = Course.objects.all()
         usercourses = map(lambda x: x.course, UserCourses.objects.filter(user=user))
@@ -413,7 +413,7 @@ def remove_course(request):
         password = data['password']
         code = data['code']
         print "Removing Code : "+ code
-        user = User.objects.get(username=username, password=password)
+        user = User.objects.get(username=username)
         course = Course.objects.get(code=code)
 
         if len(UserCourses.objects.filter(user=user, course=course)) > 0:
@@ -450,7 +450,7 @@ def get_day_courses(request):
         password = data['password']
         day = data['day'].upper()
 
-        user = User.objects.get(username=username, password=password)
+        user = User.objects.get(username=username)
 
         all_courses = Course.objects.all()
         usercourses = map(lambda x: x.course, UserCourses.objects.filter(user=user))
