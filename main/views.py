@@ -394,7 +394,7 @@ def add_course(request):
         password = data['password']
         code = data['code']
         print "Adding Code : "+ code
-        user = User.objects.get(username="admin")
+        user = User.objects.get(username=username)
         course = Course.objects.get(code=code)
 
         if len(UserCourses.objects.filter(user=user, course=course)) < 1:

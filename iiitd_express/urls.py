@@ -23,6 +23,7 @@ get_directory_json, register_user)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^register_user', register_user, name='register_user'),
     url(r'^get_faculty_json', get_faculty_json, name='get_faculty_json'),
     url(r'^get_visiting_faculty_json', get_visiting_faculty_json, name='get_visiting_faculty_json'),
     url(r'^get_mess_menu', get_mess_menu, name='get_mess_menu'),
@@ -33,5 +34,5 @@ urlpatterns = [
     url(r'^add_course', add_course, name='add_course'),
     url(r'^remove_course', remove_course, name='remove_course'),
     url(r'^get_directory_json', get_directory_json, name='get_directory_json'),
-    url(r'^register_user', register_user, name='register_user'),
+
 ]
