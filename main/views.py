@@ -8,7 +8,7 @@ import urllib
 import os
 
 from django.core import serializers
-from .models import Course, CourseSlot, UserCourses, User, Faculty, People
+from .models import Course, CourseSlot, UserCourses, User, Faculty, People, User
 
 from iiitd_express.settings import BASE_DIR
 
@@ -16,6 +16,29 @@ from iiitd_express.settings import BASE_DIR
 faculty = "https://www.iiitd.ac.in/people/faculty"
 visiting_faculty = "https://www.iiitd.ac.in/people/visiting-faculty"
 adminstration = "https://www.iiitd.ac.in/people/administration"
+
+@csrf_exempt
+def register_user(request):
+    data = json.loads(request.body)
+    username = data['username']
+    password = data['password']
+    if(len(User.objects.filter(username=username, password=password)) > 0):
+        user = User.objects.filter(username=username, password=password)[0]
+        json_dict = {
+            'username': user.username,
+            'password': user.password
+        }
+        return JsonResponse({'code': 2, 'data': json_dict})
+    else:
+        user = User(username=username, password=password)
+        user.save()
+        json_dict = {
+            'username': user.username,
+            'password': user.password
+        }
+        return JsonResponse({'code': 1, 'data': json_dict})
+
+
 
 @csrf_exempt
 def get_faculty_json_from_link(request):
